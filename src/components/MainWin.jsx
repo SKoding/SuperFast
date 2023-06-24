@@ -6,16 +6,16 @@ import Table from './main_components/Table'
 
 function MainWin() {
   return (
-    <div className='p-2 bg-gray-300 w-full'>
+    <div className='p-2 bg-gray-800 w-full'>
         <div>
             <Widgets />
         </div>
         <hr className='mt-6'/>
-        <div>
+        <div className='mt-4'>
             <Plotter />
         </div>
         <hr className='mt-6'/>
-        <div>
+        <div className='mt-4'>
             <Table />
         </div>
     </div>

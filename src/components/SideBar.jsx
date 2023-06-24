@@ -41,7 +41,7 @@ function SideBar() {
   return (
     <div>
       <div
-        className=" h-full xl:rounded-r transform  xl:translate-x-0  ease-in-out transition duration-500 flex justify-start items-start w-full sm:w-64 bg-gray-900 flex-col"
+        className=" h-full  transform  xl:translate-x-0  ease-in-out transition duration-500 flex justify-start items-start w-full sm:w-64 bg-gray-900 flex-col"
       >
         <div class="mt-6 flex flex-col justify-start items-center  pl-4 w-full border-gray-600 border-b space-y-3 pb-5 ">
           <button class="flex jusitfy-start items-center space-x-6 w-full  focus:outline-none  focus:text-indigo-400  text-white rounded ">
@@ -296,7 +296,7 @@ function SideBar() {
               </svg>
               <p class="text-base leading-4  ">Notifications</p>
             </button>
-            <button class="flex justify-start items-center space-x-6 hover:text-white focus:bg-gray-700 focus:text-white hover:bg-gray-700 text-gray-400 rounded px-3 py-2  w-full md:w-52">
+            {/* <button class="flex justify-start items-center space-x-6 hover:text-white focus:bg-gray-700 focus:text-white hover:bg-gray-700 text-gray-400 rounded px-3 py-2  w-full md:w-52">
               <svg
                 width="24"
                 height="24"
@@ -359,7 +359,7 @@ function SideBar() {
                 />
               </svg>
               <p class="text-base leading-4  ">Goals</p>
-            </button>
+            </button> */}
           </div>
         </div>
         <div class="flex flex-col justify-start items-center   px-6 border-b border-gray-600 w-full  ">

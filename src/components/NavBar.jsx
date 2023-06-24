@@ -8,7 +8,7 @@ function NavBar() {
           <img
             src="https://flowbite.com/docs/images/logo.svg"
             class="h-8 mr-3"
-            alt="Flowbite Logo"
+            alt="Superfast Fibre"
           />
           <span class="text-2xl text-white font-semibold whitespace-nowrap dark:text-white">
             Superfast <span class="text-[#F70000]">Fibre</span>
@@ -16,12 +16,11 @@ function NavBar() {
         </a>
         <div class="flex md:order-2">
           <div
-            type="button"
             class="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
-            id="user-menu-button"
-            aria-expanded="false"
-            data-dropdown-toggle="user-dropdown"
-            data-dropdown-placement="bottom"
+            // id="user-menu-button"
+            // aria-expanded="false"
+            // data-dropdown-toggle="user-dropdown"
+            // data-dropdown-placement="bottom"
           >
             <img
               class="w-12 h-12 rounded-full border-2 border-gray-400"
